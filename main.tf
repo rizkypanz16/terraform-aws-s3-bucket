@@ -16,7 +16,7 @@ provider "aws" {
 
 ## General Configuration Amazon S3
 resource "aws_s3_bucket" "panz16-s3-bucket" {
-    bucket          = "panz16-s3-bucket"				  # name bucket
+    bucket          = "panz16-s3-bucket"				  # nama bucket
     force_destroy   = true                                # enable force destroy
     tags = {
         Name        = "panz16-s3-bucket"
